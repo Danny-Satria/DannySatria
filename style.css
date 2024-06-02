@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #353535;
+  overflow-x: hidden;
+}
+
+/* navbar */
+
+.name {
+  font-size: 3em;
+  display: inline-block;
+  width: 3em;
+  position: relative;
+  top: 0.5em;
+  left: 3em;
+  color: white;
+  font-family: Bodoni Bd BT;
+}
+
+.ul-navbar {
+  display: flex;
+  position: relative;
+  left: 3em;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}
+
+.li-navbar {
+  margin: -30px 15px 15px 15px;
+  list-style-type: none;
+}
+
+.a-navbar {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 1.35em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.li-navbar:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+.li-navbar:hover:after {
+  width: 100%;
+  background: #eaeaea;
+}
+
+/* navbar end */
+
+/* main */
+
+.photos {
+  width: 27em;
+  height: 27em;
+  border-radius: 50%;
+  position: relative;
+  left: 49em;
+  top: 3em;
+}
+
+.role,
+.intro,
+.description,
+.question {
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.role {
+  top: -17em;
+  left: -16em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.intro {
+  top: -7.7em;
+  left: -18em;
+  font-family: Kozuka Gothic Pr6N B;
+}
+
+.description {
+  width: 23em;
+  font-size: 1.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: -9.5em;
+  left: 5.5em;
+}
+
+.question {
+  width: 23em;
+  font-size: 1.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: -6em;
+  left: -17.7em;
+}
+
+.go {
+  position: relative;
+  left: -68em;
+  top: -5em;
+  width: 13em;
+  height: 4em;
+  text-align: start;
+  background-color: #729134;
+  border-radius: 30px;
+  padding: 0 0 0 20px;
+  font-size: 0.9em;
+  color: white;
+  font-weight: bold;
+}
+
+.go:hover {
+  cursor: pointer;
+}
+
+.go img {
+  position: absolute;
+  top: -4.3em;
+  left: 6em;
+  width: 10em;
+}
+
+/* story */
+
+.story {
+  color: white;
+}
+
+.story img {
+  position: relative;
+  left: 3em;
+  width: 30em;
+  height: 40em;
+}
+
+.summary {
+  position: relative;
+  top: -30em;
+  left: 35em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+}
+
+.head {
+  position: relative;
+  top: -16.7em;
+  left: 20.5em;
+  font-family: Kozuka Gothic Pr6N B;
+}
+
+/* story End */
+
+/* main end */
+
+/* back button */
+
+.back {
+  position: relative;
+  width: 4em;
+  height: 4em;
+  right: -93em;
+  border-radius: 50%;
+  background-color: #729134;
+}
+
+.back:hover {
+  cursor: pointer;
+}
+
+.up {
+  position: absolute;
+  top: -5.1em;
+  left: -2.7em;
+  width: 10em;
+  transform: rotate(-90deg);
+}
+/* back button end */
